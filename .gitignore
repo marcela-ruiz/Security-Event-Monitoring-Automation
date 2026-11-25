@@ -1,0 +1,22 @@
+# Private Windows security logs
+*.evtx
+data/security_events.csv
+reports/*
+!reports/Simulated_Security_Alert_Report.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
