@@ -1,0 +1,7 @@
+Timestamp,Alert,Severity,EventCount,MITRE,Recommendation
+2026-11-01 16:04:00,Potential Brute-Force Activity,High,25,T1110,Review affected accounts and source IP addresses.
+2026-11-02 17:18:00,Privileged Logon Activity,Informational,305,Not established,Verify that privileged activity is authorized.
+2026-11-01 16:08:00,New User Account Created,Medium,1,T1136 (potential),Verify account creation authorization.
+2026-11-01 16:12:00,User Account Deleted,Medium,1,Not established,Review account deletion authorization.
+2026-11-01 16:10:00,Account Lockout Detected,Medium,1,Not established,Investigate repeated authentication failures.
+2026-11-01 16:15:00,Security Audit Log Cleared,High,1,T1070.001 (potential),Investigate log clearing and preserve evidence.
